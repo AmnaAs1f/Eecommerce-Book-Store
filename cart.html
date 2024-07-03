@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E commerece Store</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<body>
+
+    <!-- NAVBAR -->
+    <section id="header">
+     <a href="#"><img src="img/logo/logo-dark.svg" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="Contact.html">Contact </a></li>
+             </ul>
+        </div>
+        <div id="navbar">
+            <li><a href="login.html"><i class="fa-solid fa-user"></i></a></li>
+            <li><a class="active" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        </div>
+    </section>
+    
+    <!-- Cart page -->
+<section id="cart" class="section-p1">
+    <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quntity</td>            
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                        <td> <img src="img/All Books/Divergent.png" alt=""></td>
+                        <td>Divergent</td>
+                        <td>$29.99</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$29.99</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                        <td> <img src="img/All Books/Insurgent.png" alt=""></td>
+                        <td>Insurgent</td>
+                        <td>$8.87</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$8.87</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                        <td> <img src="img/All Books/Good Girl , Bad Blood.png" alt=""></td>
+                        <td>Good Girl,Bad Blood</td>
+                        <td>$6.74</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$6.74</td>
+                    </tr>
+            </tbody>
+        </table>
+    </section>
+    <!-- Coupon Section -->
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+              <h3>Apply coupon</h3>
+              <div>
+                  <input type="text" placeholder="Enter your coupon">
+                  <button class="cart-btn">Apply</button>
+                </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart subtotal</td>
+                    <td>$45.60</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong> Total</strong></td>
+                    <td><strong> $45.60</strong></td>
+
+                </tr>
+
+            </table>
+
+                <button class="cart-btn2"> Proceed to checkout</button>
+        </div>
+
+    </section>
+    
+    <!-- Footer section -->
+    <footer id="footer">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="footer-about">
+                    <img src="img/logo/logo-dark.svg" alt="Bookstore Logo">
+                    <p>Welcome to our bookstore, a haven for book lovers. Explore a vast collection of books across various genres and authors. Whether you're looking for the latest releases or timeless classics, we have something for everyone.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="useful-link">
+                    <h2>Useful Links</h2>
+                    <div class="use-links">
+                        <li><a href="index.html"><i class="fa-solid fa-angles-right"></i> Home</a></li>
+                        <li><a href="books.html"><i class="fa-solid fa-angles-right"></i> Books</a></li>
+                        <li><a href="contact.html"><i class="fa-solid fa-angles-right"></i> Contact</a></li>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="social-links">
+                    <h2>Follow Us</h2>
+                    <div class="social-icons">
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a></li>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="address">
+                    <h2>Contact Us</h2>
+                    <div class="address-links">
+                        <li class="address1"><i class="fa-solid fa-location-dot"></i> Sialkot, Punjab</li>
+                        <li><a href="tel:+92 65429160"><i class="fa-solid fa-phone"></i> +92 65429160</a></li>
+                        <li><a href="mailto:theliteracyloft@gmail.com"><i class="fa-solid fa-envelope"></i> theliteracyloft@gmail.com</a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Copyright Section -->
+<section id="copy-right">
+    <div class="copy-right-sec"><i class="fa-solid fa-copyright"></i> All rights reserved by Bookstore Inc.</a></div>
+</section>
+   
+        <script src="script.js"> </script>
+    </body>
+    </html>
